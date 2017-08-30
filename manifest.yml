@@ -1,5 +1,5 @@
 applications:
-- name: vincv-todolist # Indiquez le nom de votre application sur Bluemix
-  host: vincv-todolist # À CHANGER - À quelle adresse retrouvera-t-on l'application ?
+- name: vincv-todolist-memoire # Indiquez le nom de votre application sur Bluemix
+  host: vincv-todolist-memoire # À CHANGER - À quelle adresse retrouvera-t-on l'application ?
   command: node app # Commande de lancement de l'application
   memory: 128M # La mémoire dont vous avez besoin
