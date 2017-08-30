@@ -24,7 +24,8 @@
 
     <body>
         <div id="mon_bloc">
-        <h1>Ma todolist with Devops</h1>        
+        <h1>Ma todolist with Devops</h1>
+        <h2>avec utilisation de la chaîne d'outils fournie par Garage Method</h2>
         <ul>
         <% todolist.forEach(function(todoitem) { %>
             <li><a href="javascript:if(confirm('Voulez-vous vraiment supprimer cette tâche ?' )) document.location.href='/todo/supprimer/<%= todoitem.doc._id %>'">✘</a> <%= todoitem.doc.todo %></li>
