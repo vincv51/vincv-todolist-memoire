@@ -1,8 +1,5 @@
 applications:
-- path: .
-  memory: 256M
-  instances: 1
-  domain: mybluemix.net
-  name: vincv-todolist-memoire
-  host: vincv-todolist-memoire
-  disk_quota: 1024M
+- name: vincv-todolist # Indiquez le nom de votre application sur Bluemix
+  host: vincv-todolist # À CHANGER - À quelle adresse retrouvera-t-on l'application ?
+  command: node app # Commande de lancement de l'application
+  memory: 128M # La mémoire dont vous avez besoin
