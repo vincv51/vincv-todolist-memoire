@@ -17,7 +17,7 @@ var cloudant = Cloudant({account:'4f231165-2664-4634-9018-4c8de17afed7-bluemix',
         return console.log('Failed to initialize Cloudant: ' + err.message);
     }
 
-    var db = cloudant.db.use('todolist');
+    var db = cloudant.db.use('todolist2');
 
     /* On utilise les sessions */
     app.use(session({secret: 'todotopsecret'}))
